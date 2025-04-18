@@ -46,7 +46,7 @@ jobs:
 
         with:
 
-          role-to-assume: arn:aws:iam::503561410792:oidc-provider/token.actions.githubusercontent.com #change to reflect your IAM role’s ARN
+          role-to-assume: arn:aws:iam::503561410792:role/Test #change to reflect your IAM role’s ARN
 
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
 
